@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('moto1.jpg');
+  background-size: 199vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+header {
+  background-color:black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-left: 100px;
+  color: white;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  width: 90%;
+  margin-top: 35px;
+  margin-left: -70px;
+}
+
+button[type="submit"] {
+  background-color:black;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 70px;
+}
+
+button[type="submit"]:hover {
+  background-color: #666;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.585);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 23.5%;
+  height: 30px;
+}
+
+.for{
+  background-color: rgba(0, 0, 0, 0.481);
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: 24%;
+  margin-top: 10%;
+}
+
+    </style>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <main>
+    <div class="for">
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="enter your name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="enter your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required placeholder="enter your message"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 Company Name. All rights reserved.</p>
+  </footer>
+
+    
+</body>
+</html>
